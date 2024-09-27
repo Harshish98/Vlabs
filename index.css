@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-section {
+  width: 80%;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+table {
+  border: 2px solid rgb(223, 221, 221);
+  width: 100%;
+}
+thead {
+  background-color: #fafaf5;
+}
+thead th {
+  padding-bottom: 35px;
+  text-align: left;
+  width: fit-content;
+  cursor: pointer;
+}
+tbody tr:hover {
+  cursor: pointer;
+  background-color: rgba(230, 232, 255, 255);
+}
+tbody tr {
+  height: 30px;
+}
+td,
+th {
+  padding: 0 5px;
+}
+.border-separate {
+  border: 2px solid rgb(223, 221, 221);
+}
+.icon-sort {
+  width: 10px;
+}
+.tick {
+  width: 30px;
+  color: gray;
+}
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.input-container {
+  display: flex;
+  gap: 4px;
+}
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.selected {
+  background-color: rgba(230, 232, 255, 255);
+}
+.blur {
+  filter: blur(5px);
+}
+.hidden {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+#modalForm h3 {
+  text-align: center;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal .form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+.form-btn-group {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.form-btn-group button {
+  width: 130px;
+  padding: 6px 0px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+#saveBtn {
+  background-color: blue;
+}
+#saveBtn:hover {
+  background-color: rgb(4, 4, 154);
+}
+#cancelBtn{
+    background-color: red;
+}
+#cancelBtn:hover{
+    background-color: rgb(146, 2, 2);
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+#addBtn,
+#refreshBtn,
+.moveActive,
+.tickActive {
+  color: blue;
+}
+.editActive {
+  color: green;
+}
+.deleteActive {
+  color: red;
+}

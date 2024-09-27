@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "Ammonium Persulfate",
+    "vendor": "LG Chem",
+    "density": 3525.92,
+    "viscosity": 60.63,
+    "packaging": "Bag",
+    "packSize": 100.0,
+    "unit": "kg",
+    "quantity": 6495.18
+  },
+  {
+    "id": 2,
+    "name": "Caustic Potash",
+    "vendor": "Formosa",
+    "density": 3172.15,
+    "viscosity": 48.22,
+    "packaging": "Bag",
+    "packSize": 100.0,
+    "unit": "kg",
+    "quantity": 8751.9
+  },
+  {
+    "id": 3,
+    "name": "Dimethylaminopropylamino",
+    "vendor": "LG Chem",
+    "density": 8435.37,
+    "viscosity": 12.62,
+    "packaging": "Barrel",
+    "packSize": 75.0,
+    "unit": "L",
+    "quantity": 5964.61
+  },
+  {
+    "id": 4,
+    "name": "Mono Ammonium Phosphate",
+    "vendor": "Sinopec",
+    "density": 1597.65,
+    "viscosity": 76.51,
+    "packaging": "Bag",
+    "packSize": 105.0,
+    "unit": "kg",
+    "quantity": 8183.73
+  },
+  {
+    "id": 5,
+    "name": "Ferric Nitrate",
+    "vendor": "DowDuPont",
+    "density": 364.04,
+    "viscosity": 14.9,
+    "packaging": "Bag",
+    "packSize": 105.0,
+    "unit": "kg",
+    "quantity": 4154.33
+  },
+  {
+    "id": 6,
+    "name": "n-Pentane",
+    "vendor": "Sinopec",
+    "density": 4535.26,
+    "viscosity": 66.76,
+    "packaging": "N/A",
+    "packSize": null,
+    "unit": "t",
+    "quantity": 6272.34
+  },
+  {
+    "id": 7,
+    "name": "Glycol Ether PM",
+    "vendor": "LG Chem",
+    "density": 6495.18,
+    "viscosity": 72.12,
+    "packaging": "Bag",
+    "packSize": 250.0,
+    "unit": "kg",
+    "quantity": 8749.54
+  },
+  {
+    "id": 8,
+    "name": "Sodium Chloride",
+    "vendor": "DowDuPont",
+    "density": 2711.0,
+    "viscosity": 30.0,
+    "packaging": "Box",
+    "packSize": 50.0,
+    "unit": "kg",
+    "quantity": 3420.5
+  },
+  {
+    "id": 9,
+    "name": "Sulfuric Acid",
+    "vendor": "Sinopec",
+    "density": 1840.0,
+    "viscosity": 20.0,
+    "packaging": "Drum",
+    "packSize": 200.0,
+    "unit": "L",
+    "quantity": 1450.0
+  },
+  {
+    "id": 10,
+    "name": "Hydrochloric Acid",
+    "vendor": "Formosa",
+    "density": 1190.0,
+    "viscosity": 40.0,
+    "packaging": "Drum",
+    "packSize": 150.0,
+    "unit": "L",
+    "quantity": 2500.0
+  },
+  {
+    "id": 11,
+    "name": "Sodium Hydroxide",
+    "vendor": "LG Chem",
+    "density": 2100.0,
+    "viscosity": 15.0,
+    "packaging": "Bag",
+    "packSize": 100.0,
+    "unit": "kg",
+    "quantity": 8100.0
+  },
+  {
+    "id": 12,
+    "name": "Ethanol",
+    "vendor": "DowDuPont",
+    "density": 789.0,
+    "viscosity": 1.2,
+    "packaging": "Barrel",
+    "packSize": 50.0,
+    "unit": "L",
+    "quantity": 1200.0
+  },
+  {
+    "id": 13,
+    "name": "Acetic Acid",
+    "vendor": "Formosa",
+    "density": 1049.0,
+    "viscosity": 50.0,
+    "packaging": "Drum",
+    "packSize": 200.0,
+    "unit": "L",
+    "quantity": 3000.0
+  },
+  {
+    "id": 14,
+    "name": "Propylene Glycol",
+    "vendor": "Sinopec",
+    "density": 1036.0,
+    "viscosity": 59.0,
+    "packaging": "Bag",
+    "packSize": 50.0,
+    "unit": "kg",
+    "quantity": 4000.0
+  },
+  {
+    "id": 15,
+    "name": "Nitric Acid",
+    "vendor": "LG Chem",
+    "density": 1500.0,
+    "viscosity": 35.0,
+    "packaging": "Drum",
+    "packSize": 200.0,
+    "unit": "L",
+    "quantity": 2750.0
+  }
+]
